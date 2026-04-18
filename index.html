@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      line-height: 1.6;
+      color: #333;
+      background: #f5f5f5;
+    }
+
+    header {
+      background: #111;
+      color: #fff;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+
+    header img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 1rem;
+      border: 3px solid #fff;
+    }
+
+    nav {
+      background: #222;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    nav a {
+      color: #fff;
+      padding: 1rem;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      background: #444;
+    }
+
+    section {
+      padding: 2rem 1rem;
+      max-width: 1000px;
+      margin: auto;
+      background: #fff;
+      margin-top: 1rem;
+      border-radius: 8px;
+    }
+
+    h2 {
+      margin-bottom: 1rem;
+      color: #111;
+    }
+
+    .skills span {
+      display: inline-block;
+      background: #eee;
+      padding: 0.5rem 1rem;
+      margin: 0.3rem;
+      border-radius: 20px;
+    }
+
+    .project, .experience {
+      margin-bottom: 1rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: #111;
+      color: #fff;
+      margin-top: 1rem;
+    }
+
+    .contact a {
+      display: inline-block;
+      margin-right: 10px;
+      color: #007BFF;
+      text-decoration: none;
+    }
+
+    .contact a:hover {
+      text-decoration: underline;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 1.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="your-photo.jpg" alt="Profile Photo">
+    <h1>Your Name</h1>
+    <p>Your Title / Tagline</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#experience">Experience</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>About</h2>
+    <p>
+      <!-- Replace with your resume summary -->
+      Write a short introduction about yourself here. Highlight your background,
+      interests, and goals.
+    </p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skills">
+      <span>Skill 1</span>
+      <span>Skill 2</span>
+      <span>Skill 3</span>
+      <span>Skill 4</span>
+    </div>
+  </section>
+
+  <section id="experience">
+    <h2>Experience</h2>
+    <div class="experience">
+      <h3>Job Title - Company</h3>
+      <p><em>Duration</em></p>
+      <p>Describe your role and achievements.</p>
+    </div>
+    <div class="experience">
+      <h3>Another Role - Company</h3>
+      <p><em>Duration</em></p>
+      <p>Describe your role and achievements.</p>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>Project Name</h3>
+      <p>Short description of the project.</p>
+      <a href="#">Live Demo</a> | <a href="#">GitHub</a>
+    </div>
+    <div class="project">
+      <h3>Another Project</h3>
+      <p>Short description of the project.</p>
+      <a href="#">Live Demo</a> | <a href="#">GitHub</a>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <div class="contact">
+      <p>Email: your@email.com</p>
+      <a href="#">LinkedIn</a>
+      <a href="#">GitHub</a>
+      <a href="#">Portfolio</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 Your Name</p>
+  </footer>
+
+</body>
+</html>
